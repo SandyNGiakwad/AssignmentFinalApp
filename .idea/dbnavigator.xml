@@ -25,10 +25,10 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="7d88e9f3-56b0-4bea-9776-3d34398cb9ab">
-        <schema name="main" object-types="view, dataset trigger, column, constraint, index, table" />
+        <schema name="main" object-types="table, view" />
       </connection>
       <connection connection-id="6a86def1-e46c-4e30-8312-23cb6b715cff">
-        <schema name="main" object-types="view, dataset trigger, column, constraint, index, table" />
+        <schema name="main" object-types="dataset trigger, constraint, table, index, column, view" />
       </connection>
     </loaded-nodes>
   </component>
@@ -41,9 +41,7 @@
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="6a86def1-e46c-4e30-8312-23cb6b715cff" object-ref="schemas/main/tables/Entry" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="7d88e9f3-56b0-4bea-9776-3d34398cb9ab" />
